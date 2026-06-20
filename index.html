@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Seja bem-vinda 💛 | Manual do Recém-Nascido</title>
+<meta property="og:title" content="Seja bem-vinda 💛 | Manual do Recém-Nascido">
+<meta property="og:description" content="Que bom te ver por aqui! Separei o que tenho de melhor pra você e seu bebê.">
+<meta property="og:image" content="https://manualdorecemnascido.com.br/wp-content/uploads/2025/06/MRN-LINK-DA-BIO-VETORES-1-1024x576.jpg">
+<link rel="icon" href="https://manualdorecemnascido.com.br/wp-content/uploads/2023/03/MRN-logo-site-1024x1024.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#48B6BE;
+    --teal-dark:#3a9aa1;
+    --green:#0C7417;
+    --green-dark:#085210;
+    --pink:#DE5477;
+    --blue:#219BC4;
+    --blue-dark:#1E83A0;
+    --magenta:#A0346E;
+    --magenta-dark:#7e2856;
+    --white:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    font-family:'Poppins',sans-serif;
+    background:var(--teal);
+    color:#fff;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 18px 60px}
+
+  /* HERO */
+  .hero{text-align:center;padding:18px 0 6px}
+  .hero .logo{width:78px;height:78px;border-radius:50%;background:#fff;padding:8px;object-fit:contain;margin:0 auto 14px;display:block;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+  .hero .welcome{font-weight:600;font-size:1.05rem;opacity:.95;letter-spacing:.3px}
+  .hero img.banner{width:100%;max-width:760px;border-radius:22px;margin:14px auto 0;display:block;box-shadow:0 12px 30px rgba(0,0,0,.18)}
+  .hero .sub{font-weight:500;font-size:1rem;max-width:560px;margin:16px auto 0;opacity:.95}
+
+  /* SECTION LABEL */
+  .label{display:flex;align-items:center;justify-content:center;gap:12px;margin:46px 0 22px;text-align:center}
+  .label::before,.label::after{content:"";height:2px;flex:1;max-width:90px;background:rgba(255,255,255,.45);border-radius:2px}
+  .label span{font-weight:800;font-size:1.45rem;text-transform:uppercase;letter-spacing:1px;text-shadow:0 2px 6px rgba(0,0,0,.12)}
+
+  /* GRID + CARDS */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .grid.single{grid-template-columns:1fr;max-width:560px;margin:0 auto}
+  .card{
+    border-radius:22px;padding:26px 24px 28px;
+    display:flex;flex-direction:column;align-items:center;text-align:center;
+    box-shadow:0 14px 34px rgba(0,0,0,.16);
+    transition:transform .18s ease, box-shadow .18s ease;
+  }
+  .card:hover{transform:translateY(-4px);box-shadow:0 20px 42px rgba(0,0,0,.22)}
+  .card.pink{background:var(--pink)}
+  .card.blue{background:var(--blue)}
+  .card.bluedark{background:var(--blue-dark)}
+  .card.magenta{background:var(--magenta)}
+  .card h2{font-weight:700;font-size:2rem;line-height:1.05;margin-bottom:18px}
+  .card .badge{display:inline-block;background:rgba(255,255,255,.22);color:#fff;font-weight:600;font-size:.72rem;letter-spacing:1px;text-transform:uppercase;padding:5px 14px;border-radius:30px;margin-bottom:14px}
+  .card img.thumb{width:100%;border-radius:16px;margin-bottom:18px;box-shadow:0 8px 20px rgba(0,0,0,.18);aspect-ratio:16/9;object-fit:cover;background:rgba(255,255,255,.1)}
+  .card p{font-weight:500;font-size:.98rem;opacity:.97;margin-bottom:22px;flex:1}
+  .btn{
+    display:inline-block;background:var(--green);color:#fff;font-weight:700;
+    font-size:.92rem;text-transform:uppercase;letter-spacing:.4px;text-decoration:none;
+    padding:15px 26px;border-radius:12px;box-shadow:0 5px 0 var(--green-dark);
+    transition:transform .12s ease, box-shadow .12s ease;width:100%;max-width:340px;
+  }
+  .btn:hover{transform:translateY(-2px);box-shadow:0 7px 0 var(--green-dark)}
+  .btn:active{transform:translateY(3px);box-shadow:0 2px 0 var(--green-dark)}
+
+  /* BIO */
+  .bio{background:#fff;color:#333;border-radius:24px;padding:34px;margin-top:54px;display:flex;gap:30px;align-items:center;box-shadow:0 14px 34px rgba(0,0,0,.14)}
+  .bio img{width:170px;height:170px;border-radius:50%;object-fit:contain;border:5px solid var(--teal);flex-shrink:0;background:#fff;padding:14px}
+  .bio h3{font-weight:700;font-size:1.9rem;color:var(--teal-dark);margin-bottom:10px}
+  .bio p{font-size:.95rem;margin-bottom:10px;color:#444}
+  .bio p:last-child{margin-bottom:0}
+
+  /* STATS */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px;text-align:center}
+  .stats .item .num{font-weight:800;font-size:1.7rem}
+  .stats .item .ic{font-size:1.4rem;opacity:.85;margin-bottom:2px}
+  .stats .item .cap{font-size:.82rem;opacity:.9}
+
+  /* FOOTER */
+  footer{text-align:center;margin-top:46px}
+  .socials{display:flex;justify-content:center;gap:26px;font-size:1.7rem;padding:22px 0;border-top:1px solid rgba(255,255,255,.4);border-bottom:1px solid rgba(255,255,255,.4);max-width:420px;margin:0 auto}
+  .socials a{color:#fff;text-decoration:none;opacity:.92;transition:opacity .15s}
+  .socials a:hover{opacity:1}
+  footer .ph{font-weight:700;font-size:1.15rem;margin:24px 0 6px;text-transform:lowercase}
+  footer .em{font-size:.9rem;opacity:.92;word-break:break-all}
+  footer .cp{font-size:.78rem;opacity:.75;margin-top:22px}
+
+  @media(max-width:680px){
+    .grid{grid-template-columns:1fr;gap:18px}
+    .card h2{font-size:1.7rem}
+    .label span{font-size:1.2rem}
+    .bio{flex-direction:column;text-align:center;padding:28px 22px}
+    .stats{grid-template-columns:1fr 1fr;gap:22px 10px}
+    .stats .item .num{font-size:1.5rem}
+    .hero .sub{font-size:.95rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HERO -->
+  <header class="hero">
+    <img class="logo" src="https://manualdorecemnascido.com.br/wp-content/uploads/2023/03/MRN-logo-site-1024x1024.png" alt="Manual do Recém-Nascido">
+    <div class="welcome">seja bem-vinda 💛</div>
+    <img class="banner" src="https://manualdorecemnascido.com.br/wp-content/uploads/2024/11/1-1024x576.png" alt="Confira o que tenho para você">
+    <p class="sub">que bom te ver por aqui! separei o que tenho de melhor pra te ajudar nessa fase — escolha por onde quer começar:</p>
+  </header>
+
+  <!-- CURSOS RÁPIDOS -->
+  <div class="label"><span>Cursos Rápidos</span></div>
+  <div class="grid">
+
+    <article class="card magenta">
+      <h2>Dream Baby Pocket</h2>
+      <span class="badge">curso rápido de sono</span>
+      <img class="thumb" src="https://manualdorecemnascido.com.br/wp-content/uploads/2025/06/7-1024x576.png" alt="Dream Baby Pocket">
+      <p>bebê que só dorme no colo e acorda chorando? a versão pocket do meu método de sono te dá o passo a passo direto ao ponto pra seu bebê dormir bem.</p>
+      <a class="btn" href="https://perfis.manualdorecemnascido.com.br/?utm_source=instagram&utm_medium=manychat&utm_campaign=boas-vindas&utm_content=dreambaby-pocket">Quero o Dream Baby Pocket</a>
+    </article>
+
+    <article class="card blue">
+      <h2>Guia da Pega</h2>
+      <span class="badge">curso rápido de amamentação</span>
+      <img class="thumb" src="https://tdapocket.manualdorecemnascido.com.br/assets/hero.webp" alt="Guia da Pega">
+      <p>amamentar não precisa doer. nesse guia rápido eu te mostro como corrigir a pega e amamentar com conforto e confiança.</p>
+      <a class="btn" href="https://tdapocket.manualdorecemnascido.com.br/?utm_source=instagram&utm_medium=manychat&utm_campaign=boas-vindas&utm_content=guia-da-pega">Quero o Guia da Pega</a>
+    </article>
+
+  </div>
+
+  <!-- CONSULTAS -->
+  <div class="label"><span>Consultas com a Day</span></div>
+  <div class="grid">
+
+    <article class="card bluedark">
+      <h2>Consulta de Sono</h2>
+      <span class="badge">atendimento individual</span>
+      <img class="thumb" src="https://manualdorecemnascido.com.br/wp-content/uploads/2025/06/18-1024x576.png" alt="Consulta de Sono">
+      <p>às vezes você não precisa de mais conteúdo, e sim de alguém que te ouça e diga exatamente o que fazer. é isso que acontece aqui.</p>
+      <a class="btn" href="https://db.manualdorecemnascido.com.br/consulta-do-sono-com-day/?utm_source=instagram&utm_medium=manychat&utm_campaign=boas-vindas&utm_content=consulta-sono">Quero minha consulta</a>
+    </article>
+
+    <article class="card magenta">
+      <h2>Consulta de Amamentação</h2>
+      <span class="badge">atendimento individual</span>
+      <img class="thumb" src="https://manualdorecemnascido.com.br/wp-content/uploads/2025/06/16-1024x576.png" alt="Consulta de Amamentação">
+      <p>se você precisa de alguém que veja o que está acontecendo na sua amamentação, te passe ajustes e corrija a pega, é só clicar abaixo.</p>
+      <a class="btn" href="https://td.manualdorecemnascido.com.br/consulta-de-amamentacao/?utm_source=instagram&utm_medium=manychat&utm_campaign=boas-vindas&utm_content=consulta-amamentacao">Quero minha consulta</a>
+    </article>
+
+  </div>
+
+  <!-- MANUAL COMPLETO -->
+  <div class="label"><span>Curso Completo</span></div>
+  <div class="grid single">
+
+    <article class="card pink">
+      <h2>Manual do Recém-Nascido</h2>
+      <span class="badge">do enxoval aos primeiros meses</span>
+      <img class="thumb" src="https://manualdorecemnascido.com.br/wp-content/uploads/2025/06/MRN-LINK-DA-BIO-VETORES-1-1024x576.jpg" alt="Manual do Recém-Nascido">
+      <p>tudo que você precisa saber antes e depois do seu bebê chegar: amamentação, sono e cuidados diários reunidos em um único lugar.</p>
+      <a class="btn" href="https://mr.manualdorecemnascido.com.br/?utm_source=instagram&utm_medium=manychat&utm_campaign=boas-vindas&utm_content=manual-completo">Quero conhecer o Manual</a>
+    </article>
+
+  </div>
+
+  <!-- BIO -->
+  <section class="bio">
+    <img src="https://manualdorecemnascido.com.br/wp-content/uploads/2023/03/MRN-logo-site-1024x1024.png" alt="Manual do Recém-Nascido">
+    <div>
+      <h3>Dayane Dos Anjos</h3>
+      <p>Sou mãe, consultora de sono, amamentação e cuidados com o bebê. ♥</p>
+      <p>Através dos meus canais e cursos oriento as mães nos cuidados diários dos bebês, de maneira gentil e carinhosa — resultando em um lar tranquilo, um bebê feliz e uma família unida.</p>
+      <p>Eu te ensino a ter um bebê calminho, que mama e dorme bem.</p>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats">
+    <div class="item"><div class="ic">👩‍🍼</div><div class="num">+21.000</div><div class="cap">alunas</div></div>
+    <div class="item"><div class="ic">▶️</div><div class="num">+770.000</div><div class="cap">inscritos</div></div>
+    <div class="item"><div class="ic">📸</div><div class="num">+586.000</div><div class="cap">seguidores</div></div>
+    <div class="item"><div class="ic">🎵</div><div class="num">+630.000</div><div class="cap">seguidores</div></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="socials">
+      <a href="https://www.instagram.com/manualdorecemnascido/" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+      <a href="https://www.youtube.com/@manualdorecemnascido" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
+      <a href="https://www.tiktok.com/@manualdorecemnascido" target="_blank" rel="noopener" aria-label="TikTok">🎵</a>
+    </div>
+    <div class="ph">parcerias &amp; publicidade</div>
+    <div class="em">assessoria@manualdorecemnascido.com.br</div>
+    <div class="cp">© Manual do Recém-Nascido · Todos os direitos reservados.</div>
+  </footer>
+
+</div>
+</body>
+</html>
