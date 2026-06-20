@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
 <title>Seja bem-vinda 💛 | Manual do Recém-Nascido</title>
-<meta property="og:title" content="Seja bem-vinda 💛 | Manual do Recém-Nascido">
+<meta property="og:title" content="Manual do Recém-Nascido">
 <meta property="og:description" content="Que bom te ver por aqui! Separei o que tenho de melhor pra você e seu bebê.">
-<meta property="og:image" content="https://manualdorecemnascido.com.br/wp-content/uploads/2025/06/MRN-LINK-DA-BIO-VETORES-1-1024x576.jpg">
+<meta property="og:image" content="https://manualdorecemnascido.com.br/wp-content/uploads/2024/11/1-1024x576.png">
 <link rel="icon" href="https://manualdorecemnascido.com.br/wp-content/uploads/2023/03/MRN-logo-site-1024x1024.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +22,6 @@
     --blue:#219BC4;
     --blue-dark:#1E83A0;
     --magenta:#A0346E;
-    --magenta-dark:#7e2856;
-    --white:#ffffff;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   body{
@@ -33,19 +31,17 @@
     -webkit-font-smoothing:antialiased;
     line-height:1.5;
   }
-  .wrap{max-width:1180px;margin:0 auto;padding:24px 18px 60px}
+  .wrap{max-width:1180px;margin:0 auto;padding:30px 18px 60px}
 
   /* HERO */
-  .hero{text-align:center;padding:18px 0 6px}
-  .hero .logo{width:78px;height:78px;border-radius:50%;background:#fff;padding:8px;object-fit:contain;margin:0 auto 14px;display:block;box-shadow:0 6px 18px rgba(0,0,0,.12)}
-  .hero .welcome{font-weight:600;font-size:1.05rem;opacity:.95;letter-spacing:.3px}
-  .hero img.banner{width:100%;max-width:760px;border-radius:22px;margin:14px auto 0;display:block;box-shadow:0 12px 30px rgba(0,0,0,.18)}
-  .hero .sub{font-weight:500;font-size:1rem;max-width:560px;margin:16px auto 0;opacity:.95}
+  .hero{text-align:center}
+  .hero img.banner{width:100%;max-width:430px;border-radius:18px;margin:0 auto;display:block}
+  .hero .sub{font-weight:500;font-size:1rem;max-width:540px;margin:18px auto 0;opacity:.96}
 
   /* SECTION LABEL */
-  .label{display:flex;align-items:center;justify-content:center;gap:12px;margin:46px 0 22px;text-align:center}
-  .label::before,.label::after{content:"";height:2px;flex:1;max-width:90px;background:rgba(255,255,255,.45);border-radius:2px}
-  .label span{font-weight:800;font-size:1.45rem;text-transform:uppercase;letter-spacing:1px;text-shadow:0 2px 6px rgba(0,0,0,.12)}
+  .label{display:flex;align-items:center;justify-content:center;gap:14px;margin:46px 0 22px;text-align:center}
+  .label::before,.label::after{content:"";height:2px;flex:1;max-width:80px;background:rgba(255,255,255,.5);border-radius:2px}
+  .label span{font-weight:800;font-size:1.4rem;text-transform:uppercase;letter-spacing:1px;text-shadow:0 2px 6px rgba(0,0,0,.1)}
 
   /* GRID + CARDS */
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
@@ -61,9 +57,9 @@
   .card.blue{background:var(--blue)}
   .card.bluedark{background:var(--blue-dark)}
   .card.magenta{background:var(--magenta)}
-  .card h2{font-weight:700;font-size:2rem;line-height:1.05;margin-bottom:18px}
-  .card .badge{display:inline-block;background:rgba(255,255,255,.22);color:#fff;font-weight:600;font-size:.72rem;letter-spacing:1px;text-transform:uppercase;padding:5px 14px;border-radius:30px;margin-bottom:14px}
-  .card img.thumb{width:100%;border-radius:16px;margin-bottom:18px;box-shadow:0 8px 20px rgba(0,0,0,.18);aspect-ratio:16/9;object-fit:cover;background:rgba(255,255,255,.1)}
+  .card h2{font-weight:700;font-size:2rem;line-height:1.05;margin-bottom:16px}
+  .card .badge{display:inline-block;background:rgba(255,255,255,.22);color:#fff;font-weight:600;font-size:.72rem;letter-spacing:1px;text-transform:uppercase;padding:5px 14px;border-radius:30px;margin-bottom:16px}
+  .card img.thumb{width:100%;border-radius:16px;margin-bottom:18px;aspect-ratio:16/9;object-fit:cover}
   .card p{font-weight:500;font-size:.98rem;opacity:.97;margin-bottom:22px;flex:1}
   .btn{
     display:inline-block;background:var(--green);color:#fff;font-weight:700;
@@ -76,33 +72,35 @@
 
   /* BIO */
   .bio{background:#fff;color:#333;border-radius:24px;padding:34px;margin-top:54px;display:flex;gap:30px;align-items:center;box-shadow:0 14px 34px rgba(0,0,0,.14)}
-  .bio img{width:170px;height:170px;border-radius:50%;object-fit:contain;border:5px solid var(--teal);flex-shrink:0;background:#fff;padding:14px}
+  .bio img{width:175px;height:175px;border-radius:50%;object-fit:cover;object-position:center 25%;border:5px solid var(--teal);flex-shrink:0}
   .bio h3{font-weight:700;font-size:1.9rem;color:var(--teal-dark);margin-bottom:10px}
   .bio p{font-size:.95rem;margin-bottom:10px;color:#444}
   .bio p:last-child{margin-bottom:0}
 
   /* STATS */
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px;text-align:center}
-  .stats .item .num{font-weight:800;font-size:1.7rem}
-  .stats .item .ic{font-size:1.4rem;opacity:.85;margin-bottom:2px}
-  .stats .item .cap{font-size:.82rem;opacity:.9}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:38px;text-align:center}
+  .stats .item{display:flex;flex-direction:column;align-items:center;gap:6px}
+  .stats .ic{width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center}
+  .stats .ic svg{width:24px;height:24px;fill:#fff}
+  .stats .num{font-weight:800;font-size:1.55rem;line-height:1}
+  .stats .cap{font-size:.8rem;opacity:.9}
 
   /* FOOTER */
   footer{text-align:center;margin-top:46px}
-  .socials{display:flex;justify-content:center;gap:26px;font-size:1.7rem;padding:22px 0;border-top:1px solid rgba(255,255,255,.4);border-bottom:1px solid rgba(255,255,255,.4);max-width:420px;margin:0 auto}
-  .socials a{color:#fff;text-decoration:none;opacity:.92;transition:opacity .15s}
-  .socials a:hover{opacity:1}
-  footer .ph{font-weight:700;font-size:1.15rem;margin:24px 0 6px;text-transform:lowercase}
+  .socials{display:flex;justify-content:center;gap:18px;padding:24px 0;border-top:1px solid rgba(255,255,255,.4);border-bottom:1px solid rgba(255,255,255,.4);max-width:360px;margin:0 auto}
+  .socials a{width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,.16);display:flex;align-items:center;justify-content:center;transition:background .15s ease, transform .15s ease}
+  .socials a:hover{background:rgba(255,255,255,.32);transform:translateY(-3px)}
+  .socials a svg{width:24px;height:24px;fill:#fff}
+  footer .ph{font-weight:700;font-size:1.1rem;margin:24px 0 4px;text-transform:lowercase}
   footer .em{font-size:.9rem;opacity:.92;word-break:break-all}
   footer .cp{font-size:.78rem;opacity:.75;margin-top:22px}
 
   @media(max-width:680px){
     .grid{grid-template-columns:1fr;gap:18px}
     .card h2{font-size:1.7rem}
-    .label span{font-size:1.2rem}
+    .label span{font-size:1.18rem}
     .bio{flex-direction:column;text-align:center;padding:28px 22px}
-    .stats{grid-template-columns:1fr 1fr;gap:22px 10px}
-    .stats .item .num{font-size:1.5rem}
+    .stats{grid-template-columns:1fr 1fr;gap:24px 10px}
     .hero .sub{font-size:.95rem}
   }
 </style>
@@ -112,10 +110,8 @@
 
   <!-- HERO -->
   <header class="hero">
-    <img class="logo" src="https://manualdorecemnascido.com.br/wp-content/uploads/2023/03/MRN-logo-site-1024x1024.png" alt="Manual do Recém-Nascido">
-    <div class="welcome">seja bem-vinda 💛</div>
     <img class="banner" src="https://manualdorecemnascido.com.br/wp-content/uploads/2024/11/1-1024x576.png" alt="Confira o que tenho para você">
-    <p class="sub">que bom te ver por aqui! separei o que tenho de melhor pra te ajudar nessa fase — escolha por onde quer começar:</p>
+    <p class="sub">que bom te ver por aqui! separei o que tenho de melhor pra te ajudar nessa fase. escolha por onde quer começar:</p>
   </header>
 
   <!-- CURSOS RÁPIDOS -->
@@ -178,33 +174,51 @@
 
   <!-- BIO -->
   <section class="bio">
-    <img src="https://manualdorecemnascido.com.br/wp-content/uploads/2023/03/MRN-logo-site-1024x1024.png" alt="Manual do Recém-Nascido">
+    <img src="assets/day.jpg" alt="Dayane Dos Anjos">
     <div>
       <h3>Dayane Dos Anjos</h3>
       <p>Sou mãe, consultora de sono, amamentação e cuidados com o bebê. ♥</p>
-      <p>Através dos meus canais e cursos oriento as mães nos cuidados diários dos bebês, de maneira gentil e carinhosa — resultando em um lar tranquilo, um bebê feliz e uma família unida.</p>
+      <p>Através dos meus canais e cursos oriento as mães nos cuidados diários dos bebês, de maneira gentil e carinhosa, resultando em um lar tranquilo, um bebê feliz e uma família unida.</p>
       <p>Eu te ensino a ter um bebê calminho, que mama e dorme bem.</p>
     </div>
   </section>
 
   <!-- STATS -->
   <div class="stats">
-    <div class="item"><div class="ic">👩‍🍼</div><div class="num">+21.000</div><div class="cap">alunas</div></div>
-    <div class="item"><div class="ic">▶️</div><div class="num">+770.000</div><div class="cap">inscritos</div></div>
-    <div class="item"><div class="ic">📸</div><div class="num">+586.000</div><div class="cap">seguidores</div></div>
-    <div class="item"><div class="ic">🎵</div><div class="num">+630.000</div><div class="cap">seguidores</div></div>
+    <div class="item">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9L12 3zM5 13.18v3.3c0 1.54 3.13 3.02 7 3.02s7-1.48 7-3.02v-3.3l-7 3.82-7-3.82z"/></svg></div>
+      <div class="num">+21 mil</div><div class="cap">alunas</div>
+    </div>
+    <div class="item">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 1.8c-3.15 0-3.5.01-4.74.07-.9.04-1.38.19-1.71.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.33-.28.81-.32 1.71C3.21 9.09 3.2 9.44 3.2 12s.01 2.91.07 4.15c.04.9.19 1.38.32 1.71.17.43.37.74.69 1.06.32.32.63.52 1.06.69.33.13.81.28 1.71.32 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.9-.04 1.38-.19 1.71-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.33.28-.81.32-1.71.06-1.24.07-1.59.07-4.15s-.01-2.91-.07-4.15c-.04-.9-.19-1.38-.32-1.71a2.86 2.86 0 0 0-.69-1.06 2.86 2.86 0 0 0-1.06-.69c-.33-.13-.81-.28-1.71-.32C15.5 4.01 15.15 4 12 4zm0 3.07A4.93 4.93 0 1 1 12 16.93 4.93 4.93 0 0 1 12 7.07zm0 1.8a3.13 3.13 0 1 0 0 6.26 3.13 3.13 0 0 0 0-6.26zm5.15-.95a1.15 1.15 0 1 1-2.3 0 1.15 1.15 0 0 1 2.3 0z"/></svg></div>
+      <div class="num">+586 mil</div><div class="cap">no Instagram</div>
+    </div>
+    <div class="item">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg></div>
+      <div class="num">+770 mil</div><div class="cap">no YouTube</div>
+    </div>
+    <div class="item">
+      <div class="ic"><svg viewBox="0 0 24 24"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.01-2.82h-3.09v12.4a2.43 2.43 0 1 1-2.43-2.43c.25 0 .5.04.74.12V9.96a5.54 5.54 0 0 0-.74-.05 5.52 5.52 0 1 0 5.52 5.52V9.13a7.34 7.34 0 0 0 4.3 1.38V7.42a4.28 4.28 0 0 1-3.29-1.6z"/></svg></div>
+      <div class="num">+630 mil</div><div class="cap">no TikTok</div>
+    </div>
   </div>
 
   <!-- FOOTER -->
   <footer>
     <div class="socials">
-      <a href="https://www.instagram.com/manualdorecemnascido/" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
-      <a href="https://www.youtube.com/@manualdorecemnascido" target="_blank" rel="noopener" aria-label="YouTube">▶️</a>
-      <a href="https://www.tiktok.com/@manualdorecemnascido" target="_blank" rel="noopener" aria-label="TikTok">🎵</a>
+      <a href="https://instagram.com/manualdorecemnascido" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.43-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2zm0 1.8c-3.15 0-3.5.01-4.74.07-.9.04-1.38.19-1.71.32-.43.17-.74.37-1.06.69-.32.32-.52.63-.69 1.06-.13.33-.28.81-.32 1.71C3.21 9.09 3.2 9.44 3.2 12s.01 2.91.07 4.15c.04.9.19 1.38.32 1.71.17.43.37.74.69 1.06.32.32.63.52 1.06.69.33.13.81.28 1.71.32 1.24.06 1.59.07 4.74.07s3.5-.01 4.74-.07c.9-.04 1.38-.19 1.71-.32.43-.17.74-.37 1.06-.69.32-.32.52-.63.69-1.06.13-.33.28-.81.32-1.71.06-1.24.07-1.59.07-4.15s-.01-2.91-.07-4.15c-.04-.9-.19-1.38-.32-1.71a2.86 2.86 0 0 0-.69-1.06 2.86 2.86 0 0 0-1.06-.69c-.33-.13-.81-.28-1.71-.32C15.5 4.01 15.15 4 12 4zm0 3.07A4.93 4.93 0 1 1 12 16.93 4.93 4.93 0 0 1 12 7.07zm0 1.8a3.13 3.13 0 1 0 0 6.26 3.13 3.13 0 0 0 0-6.26zm5.15-.95a1.15 1.15 0 1 1-2.3 0 1.15 1.15 0 0 1 2.3 0z"/></svg>
+      </a>
+      <a href="https://youtube.com/manualdorecemnascido" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24"><path d="M23.5 6.2a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.51A3.02 3.02 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3.02 3.02 0 0 0 2.12 2.14c1.88.51 9.38.51 9.38.51s7.5 0 9.38-.51a3.02 3.02 0 0 0 2.12-2.14A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg>
+      </a>
+      <a href="https://tiktok.com/@manualdorecemnascido" target="_blank" rel="noopener" aria-label="TikTok">
+        <svg viewBox="0 0 24 24"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.01-2.82h-3.09v12.4a2.43 2.43 0 1 1-2.43-2.43c.25 0 .5.04.74.12V9.96a5.54 5.54 0 0 0-.74-.05 5.52 5.52 0 1 0 5.52 5.52V9.13a7.34 7.34 0 0 0 4.3 1.38V7.42a4.28 4.28 0 0 1-3.29-1.6z"/></svg>
+      </a>
     </div>
     <div class="ph">parcerias &amp; publicidade</div>
     <div class="em">assessoria@manualdorecemnascido.com.br</div>
-    <div class="cp">© Manual do Recém-Nascido · Todos os direitos reservados.</div>
+    <div class="cp">© Manual do Recém-Nascido. Todos os direitos reservados.</div>
   </footer>
 
 </div>
